@@ -24,8 +24,10 @@ while True:
             # Identifique caso a opção seja inválida.
             if op != 1 and op != 2:
                 print("opção inválida")
+            # break while do else
             if op == 2:
                 break
+        # break while principal
         if op == 2:
             break
         
