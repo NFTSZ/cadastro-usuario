@@ -16,12 +16,16 @@ while True:
         # evita que emails sejam duplicados na lista
         emails = list(set(emails))
         print("E-mail cadastrado com sucesso")
-        # Pergunte ao usuário se ele deseja adicionar outro email ou encerrar o programa. 
-        op = int(input("Deseja adicionar outro email? [1] Sim   [2] Não\n>>> "))
-        if op == 1:
-            continue
+        while True:
+            # Pergunte ao usuário se ele deseja adicionar outro email ou encerrar o programa.
+            op = int(input("Deseja adicionar outro email? [1] Sim   [2] Não\n>>> "))
+            if op == 1:
+                break 
+            # Identifique caso a opção seja inválida.
+            if op != 1 and op != 2:
+                print("opção inválida")
+            if op == 2:
+                break
         if op == 2:
             break
-        # Identifique caso a opção seja inválida.
-        elif op != 1 and op != 2:
-            print("opção inválida")
+        
