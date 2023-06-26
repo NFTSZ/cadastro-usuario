@@ -1,6 +1,7 @@
 # Cadastro de usuário (interface com PySimpleGUI)
 
 Este é um programa simples em Python que utiliza a biblioteca PySimpleGUI para criar uma interface gráfica de cadastro de usuários. Ele permite que o usuário insira um e-mail e senha, valide os dados e cadastre-os em um dicionário.
+![Interface](img1.png)
 
 ## Funcionalidades
 
