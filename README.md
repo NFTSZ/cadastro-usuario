@@ -4,6 +4,7 @@ Este é um programa simples em Python que utiliza a biblioteca PySimpleGUI para 
 <p align="center">
   <img src="img1.png" alt="Interface">
 </p>
+
 ## Funcionalidades
 
 - Campo de entrada para o e-mail do usuário.
