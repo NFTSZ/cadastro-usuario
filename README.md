@@ -9,7 +9,7 @@ Este é um programa simples em Python que utiliza a biblioteca PySimpleGUI para 
 
 - Campo de entrada para o e-mail do usuário.
 - Campo de entrada para a senha do usuário.
-- Validação do formato do e-mail utilizando a biblioteca email_validator.
+- Validação do formato do e-mail utilizando a biblioteca `email_validator`.
 - Verificação de e-mails já cadastrados.
 - Exibição/ocultação da senha através de um botão.
 - Mensagens de erro em caso de campos vazios ou formato inválido de e-mail.
@@ -24,5 +24,5 @@ Este é um programa simples em Python que utiliza a biblioteca PySimpleGUI para 
 
 1. Certifique-se de ter o Python instalado em sua máquina.
 2. Instale as bibliotecas necessárias executando o comando `pip install PySimpleGUI email_validator`.
-3. Execute o arquivo `cadastro.py` em seu ambiente Python.
+3. Execute o arquivo `interface.py` em seu ambiente Python.
 4. A interface gráfica será exibida, permitindo que você insira e-mails e senhas para cadastro.
